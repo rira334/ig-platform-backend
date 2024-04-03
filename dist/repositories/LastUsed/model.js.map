@@ -1,0 +1,1 @@
+{"version":3,"file":"model.js","sourceRoot":"","sources":["../../../src/repositories/LastUsed/model.ts"],"names":[],"mappings":";;AAAA,uCAAyC;AAMzC,MAAM,MAAM,GAAG,IAAI,iBAAM,CAAY;IACnC,KAAK,EAAE;QACL,IAAI,EAAE,KAAK;QACX,QAAQ,EAAE,IAAI;KACf;CACF,CAAC,CAAC;AAEH,kBAAe,gBAAK,CAAY,UAAU,EAAE,MAAM,CAAC,CAAC"}

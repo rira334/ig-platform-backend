@@ -1,0 +1,48 @@
+{
+  "name": "microframeworks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc & node .",
+    "dev": "tsc -w & nodemon .",
+    "start-build": "node dist/index.js"
+  },
+  "engines": {
+    "node": "14.17.5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jsonwebtoken": "^8.5.4",
+    "@types/moment": "^2.13.0",
+    "@types/yup": "^0.29.13",
+    "axios": "^1.5.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "firebase-admin": "^10.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "microframework": "^0.6.4",
+    "moment": "^2.29.1",
+    "mongoose": "^5.13.2",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.9.5",
+    "reflect-metadata": "^0.1.13",
+    "shortid": "^2.2.16",
+    "typedi": "^0.10.0",
+    "uuid": "^8.3.2",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.12",
+    "@types/multer": "^1.4.7",
+    "@types/node": "^15.12.4",
+    "@types/shortid": "^0.0.29",
+    "nodemon": "^2.0.7",
+    "typescript": "^4.3.4"
+  }
+}
